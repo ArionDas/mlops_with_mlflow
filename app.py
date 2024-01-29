@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from src.mlops_with_mlflow.pipeline.prediction import PredictionPipeline
 
-
+# creating a flask instance
 app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
