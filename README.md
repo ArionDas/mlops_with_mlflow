@@ -1,5 +1,5 @@
 # mlops_with_mlflow
-
+This project is on prediction of wine quality based on various factors like density, sulphates, citric acid content, etc. Pipelines are created for data ingestion, data validation, model trainer & evaluation. MLFlow was used to compare the models' losses. The Dockerfile created was deployed on AWS.
 ## Workflow
 
 1. Update config.yaml
